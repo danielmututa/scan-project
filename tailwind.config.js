@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+          customSky: '#D5E1EF', // Define the custom color
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
