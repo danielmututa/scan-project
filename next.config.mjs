@@ -3,10 +3,13 @@
 
 // export default nextConfig;
 
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export', // This tells Next.js to export static HTML files
+    output: 'export',
+    images: {
+      unoptimized: true, // Disable image optimization for static export
+    },
   };
   
   export default nextConfig;
+  
